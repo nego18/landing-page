@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.music {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.music section {
+    height: 500px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.music section h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.rock {
+    background-image: url(rock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jazz {
+    background-image: url(jazz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blues {
+    background-image: url(blues.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop {
+    background-image: url(pop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
